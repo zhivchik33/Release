@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Форми</title>
+	<link rel="stylesheet" type="text/css" href="css/forms.css">
+</head>
+<body>
+<p>Ми вивчаємо роботу з формами</p>
+<form name="form1">
+<input type="text" name="text" class="in1">	
+<input type="text" name="text1" size="20" maxlength="50" value="Введіть текст" class="in1">
+<input type="text" name="text2" size="30" maxlength="50" value="Введення даних заблоковано" disabled class="in1">
+<input type="text" name="text2" size="30" maxlength="50" value="Інформацію тут можна тільки читати" readonly class="in1">
+<input type="password" name="password" class="in1">
+<p>Вкажіть вашу стать</p>
+<input type="radio" name="gender" class="in2" value="male"><span class="s1">чоловіча</span>
+<input type="radio" name="gender" class="in2" value="female"><span class="s1">жіноча</span>
+<br>
+<p>Яку мову бажаєте вивчати</p>
+<input type="checkbox" name="lang1" value="en" class="in3"><span class="s2">англійська</span>
+<input type="checkbox" name="lang2" value="sp" class="in3"><span class="s2">іспанська</span>
+<input type="checkbox" name="lang3" value="fr" class="in3"><span class="s2">французька</span>
+<input type="checkbox" name="lang3" value="ja" checked class="in3"><span class="s2">японська</span>
+<br>
+<input type="submit" name="submit" value="Підтвердити">
+<input type="reset" name="reset">
+<input type="button" name="button" value="Запуск">
+<button>
+	<img src="https://static-00.iconduck.com/assets.00/mail-icon-2048x1675-emuq24or.png" width="50" align="absmiddle">
+	відправити листа
+</button>
+<br>
+<input type="file" name="download">
+<br>
+<textarea cols="20" rows="3" wrap="off"></textarea>
+<textarea cols="30" rows="5" wrap="virtual"></textarea>
+<textarea cols="50" rows="7" wrap="physical"></textarea>
+<br>
+<select>
+	<option value="en">Англійська</option>
+	<option value="fr">Французька</option>
+	<option value="sp">Іспанська</option>
+	<option value="ja">Японська</option>
+</select>
+<select size="2">
+	<option value="en" selected>Англійська</option>
+	<option value="fr">Французька</option>
+	<option value="sp">Іспанська</option>
+	<option value="ja">Японська</option>
+</select>
+<select size="4" multiple>
+	<option value="en" selected>Англійська</option>
+	<option value="fr">Французька</option>
+	<option value="sp">Іспанська</option>
+	<option value="ja">Японська</option>
+</select>
+</form>
+</body>
+</html>
